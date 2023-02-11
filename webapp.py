@@ -33,7 +33,7 @@ def main():
         st.image("https://www.onepointltd.com/wp-content/uploads/2020/03/inno2.png")
         st.title("Welcome!!!")
         choice = st.radio("Navigation", ["Check the crop type","Know the Perfect Fertilizer for you","Know about NPK","Dont know Rainfall in your area?","Want to know selling price of your crop?"])
-        st.info("This project application helps you to predict crop type suitable for your soil,further it tell you the correct NPK Ratoi for your fertilizer which is very essential and it also tell you Minimum and Maximum Selling Price for Major Crops(Primarlity Grains) for your regions mandi!!")
+        st.info("This project application helps you to predict crop type suitable for your soil,further it tell you the correct NPK Ratio for your fertilizer which is very essential and it also tells you Minimum and Maximum Selling Price for Major Crops(Primarlity Grains) for your regions mandi!!")
     
     
     if choice == "Check the crop type":
