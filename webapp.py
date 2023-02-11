@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 
-loaded_model=pickle.load(open('D:/ml model/trained_model1.sav','rb'))
+loaded_model=pickle.load(open('trained_model1.sav','rb'))
 
 def crop_prediction(input_data):
     
@@ -67,7 +67,7 @@ def main():
         st.image('https://sandrp.files.wordpress.com/2022/09/subdivision_rainfall_map-300922.jpeg?w=731') 
         st.caption("### The data in this map is for 2022 and is subdivision wise ,you can search other resources for accurate rainfall in your area" )  
     if choice == "Want to know selling price of your crop?":  
-        data=pd.read_excel('D:/ml model/crooo.xlsx')
+        data=pd.read_excel('crooo.xlsx')
         st.title("Market Price of Commodities")
 
         States = data["State"].unique()
